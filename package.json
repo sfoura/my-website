@@ -28,10 +28,6 @@
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy"
   },
-  "engines": {
-    "npm": "^10.8.2",
-    "node": "^22.5.1"
-  },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.2",
     "@types/node": "^20",
