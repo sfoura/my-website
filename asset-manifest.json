@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/timcarsonjr.com/static/css/main.fe927caf.css",
+    "main.js": "/timcarsonjr.com/static/js/main.2c187537.js",
+    "static/js/787.4b24f717.chunk.js": "/timcarsonjr.com/static/js/787.4b24f717.chunk.js",
+    "static/media/hashirshoaeb.png": "/timcarsonjr.com/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "index.html": "/timcarsonjr.com/index.html",
+    "main.fe927caf.css.map": "/timcarsonjr.com/static/css/main.fe927caf.css.map",
+    "main.2c187537.js.map": "/timcarsonjr.com/static/js/main.2c187537.js.map",
+    "787.4b24f717.chunk.js.map": "/timcarsonjr.com/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.2c187537.js"
+  ]
+}
