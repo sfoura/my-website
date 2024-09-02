@@ -1,10 +1,11 @@
+"use client";
 import React, { useState } from "react";
-import { useScrollPosition } from "../hooks/useScrollPosition";
-import useResizeObserver from "../hooks/useResizeObserver";
+import { useScrollPosition } from "../hooks/useScrollPosition.js";
+import useResizeObserver from "../hooks/useResizeObserver.js";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
-import { NavLink } from "./home/migration";
+import { NavLink } from "./home/migration.jsx";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
