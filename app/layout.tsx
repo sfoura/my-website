@@ -48,21 +48,20 @@ export default function RootLayout({
 
         <footer className="mt-auto py-5 text-center" style={{ backgroundColor: "#f5f5f5" }}>
           <div className="container">
-            <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
+            Created <i className="fas fa-code" /> with <a href="https://nextjs.org/" target='_blank'>Next.JS</a><i className="fas fa-heart" /> by{" "}
             <a
               rel="noopener"
-              href="https://github.com/timothycarson"
+              href="https://github.com/sfoura"
               aria-label="My GitHub"
             >
               <span className="badge bg-dark">
                 Timothy Carson
               </span>
             </a>{" "}
-            using <i className="fab fa-react" />
+            using <i className="fab fa-react" /> Visual Studio Code
             <p>
               <small className="text-muted">
-                Project code is open source. Feel free to fork and make your own
-                version.
+                Copyright 2024 Timothy Carson Jr
               </small>
             </p>
           </div>
