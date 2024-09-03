@@ -88,4 +88,6 @@ const Navigation = React.forwardRef((props, ref) => {
   );
 });
 
+Navigation.displayName = "navigation";
+
 export default Navigation;

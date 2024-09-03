@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Timothy Carson. I’m a 16 year IT veteran who have worked with small and big businsses in a number of industries. I understand that IT only matters if it serves people and I strive to make sure my customers are 100% satisifed",
+    "My name is Timothy Carson. I’m an IT veteran who has worked with small and big businsses in a number of industries. I understand that IT only matters if it serves people and I strive to make sure my customers are 100% satisifed",
   resume: "https://drive.google.com/file/d/1-Jpa2q9r33rcrGUUNlCkhMT-iQLCvluw/view?usp=sharing",
 };
 
@@ -64,7 +64,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "sfoura", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -100,24 +100,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 60 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Java", value: 90 },
+    { name: "JavaScript", value: 75 },
+    { name: "HTML/CSS", value: 80 },
+    { name: "Kotlin", value: 80 },
+    { name: "Service Desk", value: 90}
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Positivity", value: 100 },
+    { name: "Adaptability", value: 100 },
+    { name: "Problem Solving", value: 100 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Customer Service", value: 90 },
   ],
 };
 
@@ -131,7 +131,7 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {

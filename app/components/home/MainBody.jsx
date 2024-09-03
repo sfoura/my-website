@@ -53,4 +53,6 @@ const MainBody = React.forwardRef(
   }
 );
 
+MainBody.displayName = "mainBody";
+
 export default MainBody;
