@@ -39,6 +39,7 @@ export default function RootLayout({
                     <a className="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
+                <a href="https://timcarsonjr.com/support" className="btn btn-danger ms-auto">Get Support</a>
               </div>
             </div>
           </nav>
