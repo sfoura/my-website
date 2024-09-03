@@ -18,7 +18,7 @@ export default function Home() {
       <div>
       <Container className="text-center">
           <h1 className="display-1">
-            {mainBody.firstName}
+            {mainBody.firstName} {mainBody.lastName}
           </h1>
           <Typist>
             <div className="lead typist">
