@@ -10,6 +10,7 @@ import Skills from './components/home/Skills';
 import GetInTouch from './components/home/GetInTouch';
 import Leadership from './components/home/Leadership';
 import Experience from './components/home/Experience';
+import ScrollButton from './components/ScrollButton';
 import { mainBody, about, repos, skills, leadership, getInTouch, experiences } from './editable-stuff/config';
 
 export default function Home() {
@@ -38,15 +39,8 @@ export default function Home() {
               </a>
             ))}
           </div>
-          <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            More about me
-          </a>
         </Container>
+        <ScrollButton />
       </div>
       {about.show && (
         <AboutMe

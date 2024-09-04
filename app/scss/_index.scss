@@ -135,3 +135,8 @@ code {
     animation: progress 1.5s ease-in-out forwards;
   }
 }
+.fa-rotate-45 {
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin-left: 5px;
+}
