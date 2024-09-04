@@ -1,5 +1,6 @@
 import React from 'react';
 import './scss/custom.scss';
+import Logo from './components/Logo';
 
 export const metadata = {
   title: 'Timothy Carson Jr',
@@ -13,11 +14,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+  rel="stylesheet"
+/>
+      </head>
       <body>
         <header>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-              <a className="navbar-brand" href="/">Timothy Carson Jr</a>
+              <a className="navbar-brand" href="/"><Logo width={40} height={40} /></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

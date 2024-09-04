@@ -15,7 +15,7 @@ import { mainBody, about, repos, skills, leadership, getInTouch, experiences } f
 export default function Home() {
   return (
     <>
-      <div>
+      <div id = "main-body">
       <Container className="text-center">
           <h1 className="display-1">
             {mainBody.firstName} {mainBody.lastName}
