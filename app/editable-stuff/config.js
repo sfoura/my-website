@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Timothy",
   middleName: "",
   lastName: "Carson Jr.",
-  message: " A diverse face making a difference. ",
+  message: " Simplifying technology with diverse solutions. ",
   icons: [
     {
       image: "fa-github",
