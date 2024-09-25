@@ -10,4 +10,7 @@ const withPWA = require('next-pwa')({
     experimental: {
       appDir: true,
     },
+    images: {
+      unoptimized: true
+    },
   });

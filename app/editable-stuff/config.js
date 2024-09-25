@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Timothy Carson. I’m an IT veteran who has worked with small and big businsses in a number of industries. I understand that IT only matters if it serves people and I strive to make sure my customers are 100% satisifed",
+    "I am an IT veteran who has worked with small and big businsses in a number of industries. I understand that IT only matters if it serves people and I strive to make sure my customers are 100% satisifed",
   resume: "https://drive.google.com/file/d/1-Jpa2q9r33rcrGUUNlCkhMT-iQLCvluw/view?usp=sharing",
 };
 
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for contact and full-time System Administration, Development and Service Desk opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time System Administration, Development and Service Desk opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me or fill out the form below.",
   email: "im@timcarsonjr.com",
 };
 

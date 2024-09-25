@@ -1,6 +1,19 @@
 import React from 'react';
-import './scss/custom.scss';
+import { MantineProvider } from '@mantine/core';
+import Header from './components/Sidebar';
+import Footer from './components/Footer';
+import './assets/css/main.css';
 import Logo from './components/Logo';
+
+// core styles are required for all packages
+import '@mantine/core/styles.css';
+
+// other css files are required only if
+// you are using components from the corresponding package
+// import '@mantine/dates/styles.css';
+// import '@mantine/dropzone/styles.css';
+// import '@mantine/code-highlight/styles.css';
+// ...
 
 export const metadata = {
   title: 'Timothy Carson Jr',
@@ -15,69 +28,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link
-  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-  rel="stylesheet"
-/>
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-      </head>
+		<title>Timothy Carson Jr</title>
+		<meta charSet="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	  </head>
       <body>
-        <header>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container">
-              <a className="navbar-brand" href="/"><Logo width={40} height={40} /></a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link" href="#home">Home</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#aboutme">About</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#experience">Experience</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#skills">Skills</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-                <a href="https://timcarsonjr.com/support" className="btn btn-outline-danger ms-auto">Support <i className="fas fa-arrow-right fa-rotate-45"></i></a>
-              </div>
-            </div>
-          </nav>
-        </header>
-
-        <main>{children}</main>
-
-        <footer className="mt-auto py-5 text-center" style={{ backgroundColor: "#f5f5f5" }}>
-          <div className="container">
-            Created <i className="fas fa-code" /> with <a href="https://nextjs.org/" target='_blank'>Next.JS</a><i className="fas fa-heart" /> by{" "}
-            <a
-              rel="noopener"
-              href="https://github.com/sfoura"
-              aria-label="My GitHub"
-            >
-              <span className="badge bg-dark">
-                Timothy Carson
-              </span>
-            </a>{" "}
-            using <i className="fab fa-react" /> Visual Studio Code
-            <p>
-              <small className="text-muted">
-                Copyright 2024 Timothy Carson Jr
-              </small>
-            </p>
-          </div>
-        </footer>
+        <MantineProvider>
+          <Header />
+          <main>{children}</main>
+        </MantineProvider>
       </body>
     </html>
   );
