@@ -9,7 +9,7 @@ import {
 const ExperienceCard = ({ data }) => {
   return (
     <Paper shadow="xs" p="md">
-     <Title order={3}>{data.role}</Title>
+     <Title order={4}>{data.role}</Title>
       <Text><p>{data.date}</p></Text>
     </Paper>
   );

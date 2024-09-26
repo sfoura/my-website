@@ -14,21 +14,19 @@ import Leadership from './components/home/Leadership';
 import Experience from './components/home/Experience';
 import ScrollButton from './components/ScrollButton';
 import { mainBody, about, repos, skills, leadership, getInTouch, experiences } from './editable-stuff/config';
-
+import { Button, Title, Text, Space, Group } from '@mantine/core';
 export default function Home() {
   return (
     <>
       <div id = "main">
         {/* One */}
-        <section id="one">
-		<header class="major">
-							<h2>{about.heading}</h2>
-						</header>
-						<p>{about.message}</p>
-						<ul class="actions">
-							<li><a href={about.resume} class="button" target="_blank">Check Out My Resume</a></li>
-						</ul>
-        </section>
+        <Group id="one" direction="column" spacing="md">
+          <Title order={2}>{about.heading}</Title>
+          <Text>{about.message}</Text>
+          <Button component="a" href={about.resume} className="button" target="_blank" variant="default">
+            Check Out My Resume
+          </Button>
+        </Group>
 
         {/* Two */}
         <section id="two">
